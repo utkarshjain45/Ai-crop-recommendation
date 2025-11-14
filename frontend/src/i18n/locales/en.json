@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "newField": "New Field"
+  },
+  "home": {
+    "title": "AI-Powered Crop Recommendation System",
+    "subtitle": "Get personalized crop recommendations based on your field conditions",
+    "getStarted": "Get Started",
+    "diagnose": "Diagnose Disease",
+    "features": {
+      "cropRecommendation": {
+        "title": "Crop Recommendation",
+        "desc": "Get AI-powered recommendations for the best crops to grow"
+      },
+      "diseaseDetection": {
+        "title": "Disease Detection",
+        "desc": "Upload images to detect crop diseases instantly"
+      },
+      "yieldForecast": {
+        "title": "Yield Forecast",
+        "desc": "Predict crop yields and market prices"
+      }
+    }
+  },
+  "fieldForm": {
+    "title": "Add New Field",
+    "description": "Enter your field details to get crop recommendations",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "area": "Area",
+    "lastCrop": "Last Crop",
+    "irrigationAvailable": "Irrigation Available",
+    "submit": "Submit"
+  },
+  "recommendations": {
+    "title": "Crop Recommendations",
+    "expectedYield": "Expected Yield",
+    "profit": "Expected Profit",
+    "sustainability": "Sustainability Score",
+    "why": "Why this crop?"
+  },
+  "diagnosis": {
+    "title": "Disease Diagnosis",
+    "description": "Upload an image of your crop to diagnose diseases",
+    "uploadImage": "Upload Image",
+    "analyze": "Analyze",
+    "result": "Diagnosis Result",
+    "disease": "Disease",
+    "confidence": "Confidence",
+    "treatment": "Treatment Recommendations"
+  },
+  "common": {
+    "loading": "Loading..."
+  }
+}
+

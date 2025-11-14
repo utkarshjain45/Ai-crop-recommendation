@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.pkl
+*.joblib
+*.h5
+*.pb
+models/
+*.csv
+.DS_Store
+
