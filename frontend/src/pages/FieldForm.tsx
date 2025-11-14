@@ -228,6 +228,7 @@ export function FieldForm() {
         </form>
       </CardContent>
     </Card>
+    </div>
   )
 }
 
