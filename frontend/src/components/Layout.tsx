@@ -22,7 +22,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex justify-between items-center">
             <Link to="/" className="flex items-center gap-2 text-2xl font-bold text-primary hover:opacity-80 transition-opacity">
               <Sprout className="w-6 h-6" />
-              <span>AI Crop Advisor</span>
+              <span>AgriSmart</span>
             </Link>
             
             {/* Desktop Navigation */}
@@ -134,7 +134,63 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <main className="container mx-auto px-4 py-8 md:py-12">
         {children}
       </main>
+      <Footer />
     </div>
+  )
+}
+
+function Footer() {
+  const { t } = useTranslation()
+  
+  return (
+    <footer className="border-t bg-muted/50 mt-16">
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="space-y-4">
+            <div className="flex items-center gap-2 text-2xl font-bold text-primary">
+              <Sprout className="w-6 h-6" />
+              <span>AgriSmart</span>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              Empowering farmers with AI-driven agricultural insights for sustainable and profitable farming.
+            </p>
+          </div>
+          
+          <div>
+            <h3 className="font-semibold mb-4">Features</h3>
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li><Link to="/field/new" className="hover:text-primary">Crop Recommendation</Link></li>
+              <li><Link to="/diagnose" className="hover:text-primary">Disease Detection</Link></li>
+              <li><a href="#" className="hover:text-primary">Yield Forecasting</a></li>
+              <li><a href="#" className="hover:text-primary">Market Analysis</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 className="font-semibold mb-4">Resources</h3>
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li><a href="#" className="hover:text-primary">Documentation</a></li>
+              <li><a href="#" className="hover:text-primary">API Reference</a></li>
+              <li><a href="#" className="hover:text-primary">Support</a></li>
+              <li><a href="#" className="hover:text-primary">Blog</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 className="font-semibold mb-4">Contact</h3>
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li>Email: support@agrismart.com</li>
+              <li>Phone: +91 1800-AGRISMART</li>
+              <li>Address: India</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
+          <p>&copy; 2024 AgriSmart. All rights reserved. Built with ❤️ for farmers.</p>
+        </div>
+      </div>
+    </footer>
   )
 }
 

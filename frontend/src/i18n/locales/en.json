@@ -3,22 +3,22 @@
     "newField": "New Field"
   },
   "home": {
-    "title": "AI-Powered Crop Recommendation System",
-    "subtitle": "Get personalized crop recommendations based on your field conditions",
+    "title": "AgriSmart - AI-Powered Crop Recommendation System",
+    "subtitle": "Transform your farming with intelligent crop recommendations, disease detection, and yield forecasting",
     "getStarted": "Get Started",
     "diagnose": "Diagnose Disease",
     "features": {
       "cropRecommendation": {
-        "title": "Crop Recommendation",
-        "desc": "Get AI-powered recommendations for the best crops to grow"
+        "title": "Smart Crop Recommendation",
+        "desc": "Get AI-powered recommendations for the best crops to grow based on your soil, weather, and field conditions"
       },
       "diseaseDetection": {
-        "title": "Disease Detection",
-        "desc": "Upload images to detect crop diseases instantly"
+        "title": "Instant Disease Detection",
+        "desc": "Upload images to detect crop diseases instantly with treatment recommendations"
       },
       "yieldForecast": {
-        "title": "Yield Forecast",
-        "desc": "Predict crop yields and market prices"
+        "title": "Yield & Profit Forecast",
+        "desc": "Predict crop yields and market prices to maximize your profits"
       }
     }
   },
