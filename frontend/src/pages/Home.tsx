@@ -136,7 +136,7 @@ export function Home() {
       {/* Benefits Section */}
       <div className="py-16 bg-muted/50 rounded-3xl">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Why Choose AgriSmart?</h2>
+          <h2 className="text-4xl font-bold mb-4">Why Choose KrishiMitra?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Empowering farmers with data-driven decisions for better harvests
           </p>
@@ -343,7 +343,7 @@ export function Home() {
         <div className="text-center space-y-6">
           <h2 className="text-4xl font-bold">Ready to Transform Your Farming?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Join thousands of farmers who are already using AgriSmart to make better decisions and increase their yields
+            Join thousands of farmers who are already using KrishiMitra to make better decisions and increase their yields
           </p>
           <div className="flex gap-4 justify-center pt-4">
             <Link to="/field/new">

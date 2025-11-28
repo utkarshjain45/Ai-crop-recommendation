@@ -22,7 +22,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex justify-between items-center">
             <Link to="/" className="flex items-center gap-2 text-2xl font-bold text-primary hover:opacity-80 transition-opacity">
               <Sprout className="w-6 h-6" />
-              <span>AgriSmart</span>
+              <span>KrishiMitra</span>
             </Link>
             
             {/* Desktop Navigation */}
@@ -140,8 +140,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 function Footer() {
-  const { t } = useTranslation()
-  
   return (
     <footer className="border-t bg-muted/50 mt-16">
       <div className="container mx-auto px-4 py-12">
@@ -149,7 +147,7 @@ function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2 text-2xl font-bold text-primary">
               <Sprout className="w-6 h-6" />
-              <span>AgriSmart</span>
+              <span>KrishiMitra</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Empowering farmers with AI-driven agricultural insights for sustainable and profitable farming.
@@ -179,15 +177,15 @@ function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Email: support@agrismart.com</li>
-              <li>Phone: +91 1800-AGRISMART</li>
+              <li>Email: support@krishimitra.com</li>
+              <li>Phone: +91 1800-KRISHIMITRA</li>
               <li>Address: India</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 AgriSmart. All rights reserved. Built with ❤️ for farmers.</p>
+          <p>&copy; 2024 KrishiMitra. All rights reserved. Built with ❤️ for farmers.</p>
         </div>
       </div>
     </footer>
